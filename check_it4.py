@@ -10,6 +10,9 @@ def do_it(value):
     val10 = val8 and val9
     val11 = val9 and val10
     val12 = val10 and val11
+    val13 = val11 and val12
+    val14 = val12 and val13
+    val15 = val13 and val14
     if value:
         if val2:
             if val3:
@@ -22,7 +25,10 @@ def do_it(value):
                                         if val10:
                                             if val11:
                                                 if val12:
-                                                    print(value)
+                                                    if val13:
+                                                        if val14:
+                                                            if val15:
+                                                                print(value)
 
 
 def main():
